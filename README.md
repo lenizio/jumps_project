@@ -16,8 +16,6 @@ O projeto é estruturado da seguinte forma:
 
 ## Exemplos dos Gráficos e Dados Gerados
 
-### Salto com Contramovimento
-
 **SCM**:
 - **Impulse(N)**: 246.55
 - **Takeoff Velocity(m/s)**: 2.18
