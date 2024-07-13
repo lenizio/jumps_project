@@ -25,7 +25,9 @@ O projeto é estruturado da seguinte forma:
 - **Reactive Strength Index(m/W)**: 0.284
 - **Peak Power(W)**: 2270.407
 
-![scm](https://github.com/user-attachments/assets/0c70f707-51e7-4587-8b44-ec79b3cb966e)
+<div align="center">
+	<img src="https://github.com/user-attachments/assets/0c70f707-51e7-4587-8b44-ec79b3cb966e" alt="scm" width="700">
+</div>
 
 **Drop Jump**:
 - **Takeoff Velocity(m/s)**: 1.72
@@ -35,12 +37,17 @@ O projeto é estruturado da seguinte forma:
 - **Reactive Strength Index(m/W)**: 0.584
 - **Peak Power(W)**: 2852.726
 
-![drop](https://github.com/user-attachments/assets/5a47549e-5f7d-44ed-afed-c87d42936b27)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/5a47549e-5f7d-44ed-afed-c87d42936b27" alt="drop" width="700">
+</div>
 
 **Lateral Jump**:   
-
 - **First Peak Force(N)**: 1865,362
 - **Second Peak Force(N)**: 1682,281
 - **Third Peak Force(N)**: 2356,501
+- **Fourth  Peak Force(N)**: 2848,445
+- **Fifth Peak Force(N)**: 2693,777517
 
-  ![sl](https://github.com/user-attachments/assets/ce659e66-f063-481b-883f-8bdd32226685)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/ce659e66-f063-481b-883f-8bdd32226685" alt="sl" width="700">
+</div>
