@@ -10,7 +10,7 @@ import os
 
 def main():
     data_directoty = Path('/home/lenizio/biomechanics/jumps_project/data')
-    output_directory = ('/home/lenizio/biomechanics/jumps_project/output/output.xlsx')
+    output_directory = ('/home/lenizio/biomecha nics/jumps_project/output/output.xlsx')
     workbook = xlsxwriter.Workbook(output_directory)
     worksheet1 = workbook.add_worksheet('Counter Movement Jump')
     worksheet2 = workbook.add_worksheet('Drop Jump')
@@ -37,9 +37,11 @@ def main():
     
     for file in data_directoty.rglob("*"):
         if file.is_file():
-            name,jump_type,attempt,weight = file.stem.strip().split('_')
+            name,weight,attempt,jump_type = file.stem.strip().split('-')
+            weight.strip().replace(',','.')
+            jump_type.strip()
             
-            if jump_type=="scm":
+            if jump_type.startswith('SCM') or jump_type.startswith('scm'):
                 jump= Scm(name,jump_type,attempt,weight,filepath=file)
                 worksheet1.write(row1, 0, name)
                 worksheet1.write(row1, 1, attempt)
@@ -53,7 +55,7 @@ def main():
                 row1 += 1 
                 jump.print_jump_data()               
             
-            elif jump_type.startswith('sp'):
+            elif jump_type.startswith('sp') or jump_type.startswith('SP'):
                 drop_platform_height = jump_type.strip().split('.')[1]
                 jump= Drop_Jump(name,jump_type,attempt,weight,drop_platform_height,filepath=file)
                 worksheet2.write(row2, 0, name)
@@ -69,7 +71,7 @@ def main():
                 row2 += 1
                 jump.print_jump_data()               
 
-            elif jump_type.startswith('sl'):
+            elif jump_type.startswith('sl') or jump_type.startswith('SL'):
                 hurdle_height = jump_type.strip().split('.')[1]
                 jump=Lateral_Jump(name,jump_type,attempt,weight,hurdle_height,filepath=file)
                 worksheet3.write(row3, 0, name)
