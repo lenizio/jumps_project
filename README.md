@@ -19,24 +19,28 @@ O projeto é estruturado da seguinte forma:
 ### Salto com Contramovimento
 
 **SCM**:
-**Impulse(N)**: 246.55
-**Takeoff Velocity(m/s)**: 2.18
-**Jump Height(m)**: 0.24  
-**Reactive Strength Index(m/W)**: 0.284
-**Peak Power(W)**: 2270.407
+- **Impulse(N)**: 246.55
+- **Takeoff Velocity(m/s)**: 2.18
+- **Jump Height(m)**: 0.24  
+- **Reactive Strength Index(m/W)**: 0.284
+- **Peak Power(W)**: 2270.407
 
-
+![scm](https://github.com/user-attachments/assets/0c70f707-51e7-4587-8b44-ec79b3cb966e)
 
 **Drop Jump**:
-**Takeoff Velocity(m/s)**: 1.72
-**Jump Height(m)**: 0.15
-**Contact Time(s)**: 0.257
-**Flight Time(s)**: 0.35
-**Reactive Strength Index(m/W)**: 0.584
-**Peak Power(W)**: 2852.726
+- **Takeoff Velocity(m/s)**: 1.72
+- **Jump Height(m)**: 0.15
+- **Contact Time(s)**: 0.257
+- **Flight Time(s)**: 0.35
+- **Reactive Strength Index(m/W)**: 0.584
+- **Peak Power(W)**: 2852.726
+
+![drop](https://github.com/user-attachments/assets/5a47549e-5f7d-44ed-afed-c87d42936b27)
 
 **Lateral Jump**:   
 
-**First Peak Force(N)**: 1865,362
-**Second Peak Force(N)**: 1682,281
-**Third Peak Force(N)**: 2356,501
+- **First Peak Force(N)**: 1865,362
+- **Second Peak Force(N)**: 1682,281
+- **Third Peak Force(N)**: 2356,501
+
+  ![sl](https://github.com/user-attachments/assets/ce659e66-f063-481b-883f-8bdd32226685)
