@@ -47,5 +47,5 @@ O projeto é estruturado da seguinte forma:
 - **Fifth Peak Force(N)**: 2693,777517
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/ce659e66-f063-481b-883f-8bdd32226685" alt="sl" width="700">
+  <img src="https://github.com/user-attachments/assets/ce659e66-f063-481b-883f-8bdd32226685" alt="sl" width="500">
 </div>
